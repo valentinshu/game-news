@@ -1,30 +1,56 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto desarrollado al inicio de mi aprendizaje. Se encuentra en línea ahora.
 
-Currently, two official plugins are available:
+🌐 **Demo en línea**: [Game News](https://gamenewssteam.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción
 
-## Expanding the ESLint configuration
+Este proyecto muestra una vista básica de ofertas de videojuegos disponibles en Steam. La información es obtenida a partir de una API pública que proporciona datos sobre las ofertas, incluyendo títulos, precios y descuentos. Para evitar problemas por copyright, las imágenes utilizadas son de baja resolución.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologías utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: Biblioteca para construir interfaces de usuario.
+- **TypeScript**: Superset de JavaScript que permite tipado estático.
+- **Vite**: Herramienta de desarrollo rápida para proyectos frontend.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## API consumida
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+El proyecto utiliza la [CheapShark API](https://apidocs.cheapshark.com) para obtener los datos de las ofertas de Steam.
+
+## Instalación y uso
+
+Si deseas ejecutar este proyecto de forma local, sigue los siguientes pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/tu-repositorio.git
+   cd tu-repositorio
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+4. Abre tu navegador en [http://localhost:5173](http://localhost:5173) para ver la aplicación.
+
+## Características
+
+- Listado de ofertas con títulos y precios.
+- Filtros básicos para explorar ofertas según criterios específicos.
+- Diseño responsivo para una mejor experiencia en dispositivos móviles.
+
+## Demo
+
+Puedes acceder a la versión en línea del proyecto desde el siguiente enlace: [Game News](https://gamenewssteam.netlify.app/).
+
+---
+
+Espero que disfrutes explorando este proyecto. Si tienes algún comentario o sugerencia, no dudes en contactarme.
+
