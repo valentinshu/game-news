@@ -43,8 +43,7 @@ Si deseas ejecutar este proyecto de forma local, sigue los siguientes pasos:
 ## Características
 
 - Listado de ofertas con títulos y precios.
-- Filtros básicos para explorar ofertas según criterios específicos.
-- Diseño responsivo para una mejor experiencia en dispositivos móviles.
+- No responsive.
 
 ## Demo
 
